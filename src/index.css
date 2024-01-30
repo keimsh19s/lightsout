@@ -1,0 +1,75 @@
+body {
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 500px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.title {
+  /* width:90%; */
+  position: relative;
+  padding: 1rem 2rem calc(1rem + 10px);
+  background: #25b33a;
+}
+.title:before {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 4px solid #000;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.buttons > button {
+  font-size: 15px;
+  width: 17%;
+  position: relative;
+  padding: 10px 10px 10px;
+  background: #5395ca;
+  color: #000;
+}
+
+.buttons > button:before {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  border: 4px solid #000;
+}
+
+/* .lightButtonsArea{
+} */
+
+.row {
+  display: flex;
+}
+
+.lightButton {
+  width: 50%;
+  margin: 1px;
+  aspect-ratio: 1;
+  border: solid 0.5px;
+  background-color: #fff100;
+  border-radius: 10px;
+}
+
+.off {
+  background-color: rgb(172, 168, 168);
+}
